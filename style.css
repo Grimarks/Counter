@@ -1,0 +1,39 @@
+#angkaAwal{
+    display: block;
+    font-size: 10em;
+    text-align: center;
+}
+
+#Container{
+    text-align: center;
+}
+
+button{
+    border-radius: 25px;
+    background-color: blue;
+    padding: 8px;
+    margin: 5px;
+    font-size: 3em;
+}
+
+button:hover{
+    background-color: dodgerblue;
+    color: darkgray;
+}
+
+@media only screen and (max-width: 380px){
+
+    #angkaAwal{
+        display: block;
+        font-size: 5em;
+        text-align: center;
+    }
+
+    button{
+        border-radius: 15px;
+        background-color: blue;
+        padding: 5px;
+        margin: 3px;
+        font-size: 1.5em;
+    }
+}
